@@ -1,0 +1,30 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #f5e9e9; /* 如果图片加载失败或不显示时的背景颜色 */
+
+  /* flex布局 */
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh; /* 确保内容高度不小于视口高度 */
+}
+header {
+  flex-grow: 1;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: gray;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
